@@ -5,11 +5,26 @@
         <TargetFramework>net48</TargetFramework>
         <LangVersion>latest</LangVersion>
         <Nullable>enable</Nullable>
+        <Authors>Mariyan Slesar</Authors>
+        <Description>This package is a shared library between Craftify packages</Description>
+        <Title>Craftify.Shared</Title>
+        <PackageProjectUrl>https://github.com/MariyanDeveloper/Craftify.Shared</PackageProjectUrl>
+        <PackageIcon>Craftify.png</PackageIcon>
+        <RepositoryUrl>https://github.com/MariyanDeveloper/Craftify.Shared</RepositoryUrl>
+        <RepositoryType>github</RepositoryType>
+        <PackageTags>Craftify,Shared,BIM,RevitAPI</PackageTags>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Revit_All_Main_Versions_API_x64" Version="2023.0.0" />
     </ItemGroup>
     <ItemGroup>
       <Folder Include="Properties" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="..\..\..\ProductInformation\Craftify.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>Craftify.png</Link>
+      </None>
     </ItemGroup>
 </Project>
